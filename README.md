@@ -129,13 +129,6 @@ https://raw.githubusercontent.com/Lehlohonolo-Saohatse/Data-Engineering-Sales-An
 
 See [`docs/IMPLEMENTATION_PLAN.md`](./docs/IMPLEMENTATION_PLAN.md) — fully illustrated with screenshots at every phase.
 
-### 4. Regenerate data (optional)
-
-```bash
-python data/generate_data.py
-# Outputs: data/sales_data.json (20 customers, 20 products, 120 orders)
-```
-
 ---
 
 ## 📊 Screenshots
@@ -285,8 +278,6 @@ python data/generate_data.py
 ## 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first.
-
-See [`.github/ISSUE_TEMPLATE/bug_report.md`](./.github/ISSUE_TEMPLATE/bug_report.md) for bug reports.
 
 ---
 
