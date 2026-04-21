@@ -82,7 +82,7 @@ sa-retail-analytics/
 │
 ├── data/
 │   ├── sales_data.json              ← Source dataset (SA retail)
-│   └── generate_data.py             ← Script to regenerate/extend data
+│   
 │
 ├── notebooks/
 │   ├── 01_silver_cleaning.py        ← Silver layer PySpark notebook
@@ -116,13 +116,6 @@ cd Data-Engineering-Sales-Analytics-Using-Microsoft-Fabric-Project
 ### 2. Follow the implementation plan
 
 See [`IMPLEMENTATION_PLAN.md`](./IMPLEMENTATION_PLAN.md) for the complete step-by-step guide from workspace setup to Power BI dashboard.
-
-### 3. Regenerate data (optional)
-
-```bash
-cd data
-python generate_data.py
-```
 
 ---
 
