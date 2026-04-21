@@ -72,22 +72,15 @@ The dataset simulates a realistic SA multi-store retail environment:
 
 ```
 sa-retail-analytics/
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   └── bug_report.md           ← Bug report template
-│   └── workflows/
-│       └── validate_data.yml       ← CI: validate JSON schema on push
-│
 ├── data/
-│   ├── sales_data.json             ← 🇿🇦 SA retail source dataset (115 KB)
-│   └── generate_data.py            ← Regenerate / extend the dataset
+│   └── sales_data.json             ← 🇿🇦 SA retail source dataset (115 KB)
 │
 ├── docs/
 │   └── IMPLEMENTATION_PLAN.md      ← Full step-by-step build guide with screenshots
 │
 ├── notebooks/
-│   ├── 01_silver_cleaning.py       ← PySpark: clean & transform bronze → silver
-│   └── 02_gold_analytics.py        ← PySpark: aggregate silver → gold (7 tables)
+│   ├── 01_silver_cleaning.ipynb       ← PySpark: clean & transform bronze → silver
+│   └── 02_gold_analytics.ipynb        ← PySpark: aggregate silver → gold (7 tables)
 │
 ├── pipeline/
 │   └── pipeline_config.json        ← Pipeline reference config
@@ -192,6 +185,23 @@ python data/generate_data.py
 ![Phase 5 — Pipeline ran successfully](./screenshots/phase5_pipeline_run.png)
 
 > `Sales_Pipeline` chains all three activities — Bronze ingestion, Silver cleaning, and Gold analytics — and completed in **4 minutes 54 seconds**. It is scheduled to run daily at **06:00 SAST**.
+
+
+---
+### Phase 6 — Workspace at the end
+
+![Phase 1 — Workspace created in Microsoft Fabric](./screenshots/workspace_at_the_end.png)
+
+> The `SA Retail Analytics Workspace` workspace is created in Microsoft Fabric. From here you create the Lakehouse, Dataflows, Notebooks, and Pipeline.
+
+
+---
+
+### Phase 7 — Connecting the Lakehouse to the Power Bi
+
+![Phase 7 — Pipeline ran successfully](./screenshots/powerbi.png)
+
+> `Power BI` Now lets visualize the data in Power BI.
 
 ---
 
