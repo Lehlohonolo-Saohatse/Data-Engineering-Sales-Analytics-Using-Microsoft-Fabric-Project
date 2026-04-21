@@ -183,7 +183,7 @@ See [`docs/IMPLEMENTATION_PLAN.md`](./docs/IMPLEMENTATION_PLAN.md) — fully ill
 ---
 ### Phase 6 — Workspace at the end
 
-![Phase 1 — Workspace created in Microsoft Fabric](./screenshots/workspace_at_the_end.png)
+![Phase 6 — Workspace created in Microsoft Fabric](./screenshots/workspace_at_the_end.png)
 
 > The `SA Retail Analytics Workspace` workspace is created in Microsoft Fabric. From here you create the Lakehouse, Dataflows, Notebooks, and Pipeline.
 
@@ -194,7 +194,7 @@ See [`docs/IMPLEMENTATION_PLAN.md`](./docs/IMPLEMENTATION_PLAN.md) — fully ill
 
 ![Phase 7 — Pipeline ran successfully](./screenshots/powerbi.png)
 
-> `Power BI` Now lets visualize the data in Power BI.
+> `Power BI` Now lets visualize the data in Power BI. Current Phase of the Project. Since I am on a free account I cannot directly connect the Lakehouse to the Power BI, but an alternative of creating the CSVs, and then importing them to the Power Bi is the plan.
 
 ---
 
