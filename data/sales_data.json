@@ -1,0 +1,4351 @@
+{
+  "metadata": {
+    "source": "SA Retail Analytics Project",
+    "country": "South Africa",
+    "currency": "ZAR",
+    "generated_at": "2026-04-21T13:50:56.903006",
+    "version": "1.0"
+  },
+  "customers": [
+    {
+      "customer_id": "C001",
+      "name": "Sipho Dlamini",
+      "email": "sipho.dlamini@gmail.com",
+      "phone": "071 234 5678",
+      "city": "Johannesburg",
+      "province": "Gauteng",
+      "segment": "Premium"
+    },
+    {
+      "customer_id": "C002",
+      "name": "Naledi Mokoena",
+      "email": "naledi.mokoena@gmail.com",
+      "phone": "082 345 6789",
+      "city": "Soweto",
+      "province": "Gauteng",
+      "segment": "Regular"
+    },
+    {
+      "customer_id": "C003",
+      "name": "Thabo Nkosi",
+      "email": "thabo.nkosi@outlook.com",
+      "phone": "083 456 7890",
+      "city": "Cape Town",
+      "province": "Western Cape",
+      "segment": "Premium"
+    },
+    {
+      "customer_id": "C004",
+      "name": "Zanele Khumalo",
+      "email": "zanele.khumalo@yahoo.com",
+      "phone": "074 567 8901",
+      "city": "Durban",
+      "province": "KwaZulu-Natal",
+      "segment": "Budget"
+    },
+    {
+      "customer_id": "C005",
+      "name": "Lerato Sithole",
+      "email": "lerato.sithole@gmail.com",
+      "phone": "060 678 9012",
+      "city": "Pretoria",
+      "province": "Gauteng",
+      "segment": "Regular"
+    },
+    {
+      "customer_id": "C006",
+      "name": "Bongani Mahlangu",
+      "email": "bongani.mahlangu@gmail.com",
+      "phone": "079 789 0123",
+      "city": "Ekurhuleni",
+      "province": "Gauteng",
+      "segment": "Budget"
+    },
+    {
+      "customer_id": "C007",
+      "name": "Ayanda Ndlovu",
+      "email": "ayanda.ndlovu@webmail.co.za",
+      "phone": "072 890 1234",
+      "city": "Port Elizabeth",
+      "province": "Eastern Cape",
+      "segment": "Regular"
+    },
+    {
+      "customer_id": "C008",
+      "name": "Kagiso Molefe",
+      "email": "kagiso.molefe@gmail.com",
+      "phone": "081 901 2345",
+      "city": "Bloemfontein",
+      "province": "Free State",
+      "segment": "Budget"
+    },
+    {
+      "customer_id": "C009",
+      "name": "Nomvula Shabalala",
+      "email": "nomvula.shab@gmail.com",
+      "phone": "063 012 3456",
+      "city": "Pietermaritzburg",
+      "province": "KwaZulu-Natal",
+      "segment": "Regular"
+    },
+    {
+      "customer_id": "C010",
+      "name": "Mpho Tau",
+      "email": "mpho.tau@hotmail.com",
+      "phone": "084 123 4567",
+      "city": "Sandton",
+      "province": "Gauteng",
+      "segment": "Premium"
+    },
+    {
+      "customer_id": "C011",
+      "name": "Lungelo Buthelezi",
+      "email": "lungelo.b@gmail.com",
+      "phone": "076 234 5678",
+      "city": "Durban",
+      "province": "KwaZulu-Natal",
+      "segment": "Premium"
+    },
+    {
+      "customer_id": "C012",
+      "name": "Fatima Patel",
+      "email": "fatima.patel@gmail.com",
+      "phone": "071 345 6789",
+      "city": "Lenasia",
+      "province": "Gauteng",
+      "segment": "Regular"
+    },
+    {
+      "customer_id": "C013",
+      "name": "Heinrich van Wyk",
+      "email": "hvwyk@gmail.com",
+      "phone": "082 456 7890",
+      "city": "Stellenbosch",
+      "province": "Western Cape",
+      "segment": "Premium"
+    },
+    {
+      "customer_id": "C014",
+      "name": "Precious Moyo",
+      "email": "precious.moyo@gmail.com",
+      "phone": "073 567 8901",
+      "city": "Roodepoort",
+      "province": "Gauteng",
+      "segment": "Budget"
+    },
+    {
+      "customer_id": "C015",
+      "name": "Andile Zulu",
+      "email": "andile.zulu@gmail.com",
+      "phone": "068 678 9012",
+      "city": "Umlazi",
+      "province": "KwaZulu-Natal",
+      "segment": "Budget"
+    },
+    {
+      "customer_id": "C016",
+      "name": "Carien du Plessis",
+      "email": "carien.dp@outlook.com",
+      "phone": "079 789 0123",
+      "city": "Cape Town",
+      "province": "Western Cape",
+      "segment": "Regular"
+    },
+    {
+      "customer_id": "C017",
+      "name": "Tshepo Moagi",
+      "email": "tshepo.moagi@gmail.com",
+      "phone": "072 890 1234",
+      "city": "Mafikeng",
+      "province": "North West",
+      "segment": "Regular"
+    },
+    {
+      "customer_id": "C018",
+      "name": "Nompumelelo Cele",
+      "email": "nompumelelo.c@gmail.com",
+      "phone": "081 901 2345",
+      "city": "Durban",
+      "province": "KwaZulu-Natal",
+      "segment": "Premium"
+    },
+    {
+      "customer_id": "C019",
+      "name": "Ravi Naidoo",
+      "email": "ravi.naidoo@gmail.com",
+      "phone": "063 012 3456",
+      "city": "Durban",
+      "province": "KwaZulu-Natal",
+      "segment": "Regular"
+    },
+    {
+      "customer_id": "C020",
+      "name": "Yolanda Botha",
+      "email": "yolanda.botha@gmail.com",
+      "phone": "084 123 4567",
+      "city": "Hermanus",
+      "province": "Western Cape",
+      "segment": "Premium"
+    }
+  ],
+  "products": [
+    {
+      "product_id": "P001",
+      "name": "Sasko White Bread 700g",
+      "category": "Groceries",
+      "price": 19.99,
+      "stock": 500
+    },
+    {
+      "product_id": "P002",
+      "name": "Albany Superior Brown Bread",
+      "category": "Groceries",
+      "price": 21.49,
+      "stock": 420
+    },
+    {
+      "product_id": "P003",
+      "name": "Clover Full Cream Milk 2L",
+      "category": "Groceries",
+      "price": 34.99,
+      "stock": 350
+    },
+    {
+      "product_id": "P004",
+      "name": "Koo Baked Beans 410g",
+      "category": "Groceries",
+      "price": 16.99,
+      "stock": 600
+    },
+    {
+      "product_id": "P005",
+      "name": "Nescaf\u00e9 Classic 200g",
+      "category": "Groceries",
+      "price": 89.99,
+      "stock": 280
+    },
+    {
+      "product_id": "P006",
+      "name": "Sunlight Dishwashing Liquid 750ml",
+      "category": "Household",
+      "price": 28.99,
+      "stock": 400
+    },
+    {
+      "product_id": "P007",
+      "name": "Ariel Washing Powder 2kg",
+      "category": "Household",
+      "price": 79.99,
+      "stock": 220
+    },
+    {
+      "product_id": "P008",
+      "name": "Domestos Bleach 750ml",
+      "category": "Household",
+      "price": 24.99,
+      "stock": 310
+    },
+    {
+      "product_id": "P009",
+      "name": "TRESemm\u00e9 Shampoo 400ml",
+      "category": "Personal Care",
+      "price": 59.99,
+      "stock": 180
+    },
+    {
+      "product_id": "P010",
+      "name": "Nivea Body Lotion 400ml",
+      "category": "Personal Care",
+      "price": 74.99,
+      "stock": 210
+    },
+    {
+      "product_id": "P011",
+      "name": "Colgate Total Toothpaste 150ml",
+      "category": "Personal Care",
+      "price": 38.99,
+      "stock": 450
+    },
+    {
+      "product_id": "P012",
+      "name": "Woolworths Cotton T-Shirt",
+      "category": "Clothing",
+      "price": 149.99,
+      "stock": 120
+    },
+    {
+      "product_id": "P013",
+      "name": "Truworths Denim Jeans",
+      "category": "Clothing",
+      "price": 499.99,
+      "stock": 80
+    },
+    {
+      "product_id": "P014",
+      "name": "Volkano USB Charging Hub",
+      "category": "Electronics",
+      "price": 299.99,
+      "stock": 90
+    },
+    {
+      "product_id": "P015",
+      "name": "Philips LED Bulb 12W (3 pack)",
+      "category": "Electronics",
+      "price": 89.99,
+      "stock": 200
+    },
+    {
+      "product_id": "P016",
+      "name": "Coca-Cola 2L",
+      "category": "Beverages",
+      "price": 22.99,
+      "stock": 480
+    },
+    {
+      "product_id": "P017",
+      "name": "Rooibos Tea 80 Bags",
+      "category": "Beverages",
+      "price": 44.99,
+      "stock": 320
+    },
+    {
+      "product_id": "P018",
+      "name": "Oros Orange Squash 2L",
+      "category": "Beverages",
+      "price": 34.99,
+      "stock": 290
+    },
+    {
+      "product_id": "P019",
+      "name": "Simba Chips Tomato Sauce 120g",
+      "category": "Snacks",
+      "price": 14.99,
+      "stock": 550
+    },
+    {
+      "product_id": "P020",
+      "name": "Bar-One Chocolate 45g",
+      "category": "Snacks",
+      "price": 8.99,
+      "stock": 700
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORD0001",
+      "customer_id": "C004",
+      "order_date": "2025-08-13",
+      "store": "Woolworths V&A",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 2,
+          "unit_price": 59.99,
+          "line_total": 119.98
+        }
+      ],
+      "order_total": 119.98
+    },
+    {
+      "order_id": "ORD0002",
+      "customer_id": "C018",
+      "order_date": "2025-05-07",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 4,
+          "unit_price": 14.99,
+          "line_total": 59.96
+        }
+      ],
+      "order_total": 59.96
+    },
+    {
+      "order_id": "ORD0003",
+      "customer_id": "C007",
+      "order_date": "2026-03-19",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 5,
+          "unit_price": 44.99,
+          "line_total": 224.95
+        },
+        {
+          "product_id": "P001",
+          "product_name": "Sasko White Bread 700g",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 19.99,
+          "line_total": 39.98
+        }
+      ],
+      "order_total": 264.93
+    },
+    {
+      "order_id": "ORD0004",
+      "customer_id": "C015",
+      "order_date": "2025-06-07",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 3,
+          "unit_price": 59.99,
+          "line_total": 179.97
+        },
+        {
+          "product_id": "P001",
+          "product_name": "Sasko White Bread 700g",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 19.99,
+          "line_total": 39.98
+        },
+        {
+          "product_id": "P006",
+          "product_name": "Sunlight Dishwashing Liquid 750ml",
+          "category": "Household",
+          "quantity": 2,
+          "unit_price": 28.99,
+          "line_total": 57.98
+        },
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 299.99,
+          "line_total": 899.97
+        },
+        {
+          "product_id": "P011",
+          "product_name": "Colgate Total Toothpaste 150ml",
+          "category": "Personal Care",
+          "quantity": 1,
+          "unit_price": 38.99,
+          "line_total": 38.99
+        }
+      ],
+      "order_total": 1216.89
+    },
+    {
+      "order_id": "ORD0005",
+      "customer_id": "C012",
+      "order_date": "2025-06-23",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 6,
+          "unit_price": 8.99,
+          "line_total": 53.94
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 4,
+          "unit_price": 59.99,
+          "line_total": 239.96
+        },
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 5,
+          "unit_price": 21.49,
+          "line_total": 107.45
+        }
+      ],
+      "order_total": 401.35
+    },
+    {
+      "order_id": "ORD0006",
+      "customer_id": "C018",
+      "order_date": "2026-03-25",
+      "store": "Shoprite Durban",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 6,
+          "unit_price": 8.99,
+          "line_total": 53.94
+        },
+        {
+          "product_id": "P012",
+          "product_name": "Woolworths Cotton T-Shirt",
+          "category": "Clothing",
+          "quantity": 1,
+          "unit_price": 149.99,
+          "line_total": 149.99
+        },
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 1,
+          "unit_price": 79.99,
+          "line_total": 79.99
+        }
+      ],
+      "order_total": 283.92
+    },
+    {
+      "order_id": "ORD0007",
+      "customer_id": "C003",
+      "order_date": "2026-03-12",
+      "store": "Clicks Rosebank",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 3,
+          "unit_price": 16.99,
+          "line_total": 50.97
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 4,
+          "unit_price": 499.99,
+          "line_total": 1999.96
+        }
+      ],
+      "order_total": 2050.93
+    },
+    {
+      "order_id": "ORD0008",
+      "customer_id": "C012",
+      "order_date": "2026-01-19",
+      "store": "Shoprite Durban",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 5,
+          "unit_price": 79.99,
+          "line_total": 399.95
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 6,
+          "unit_price": 59.99,
+          "line_total": 359.94
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 34.99,
+          "line_total": 69.98
+        }
+      ],
+      "order_total": 829.87
+    },
+    {
+      "order_id": "ORD0009",
+      "customer_id": "C015",
+      "order_date": "2025-11-12",
+      "store": "Spar Stellenbosch",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 1,
+          "unit_price": 59.99,
+          "line_total": 59.99
+        },
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 2,
+          "unit_price": 34.99,
+          "line_total": 69.98
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 1,
+          "unit_price": 24.99,
+          "line_total": 24.99
+        },
+        {
+          "product_id": "P011",
+          "product_name": "Colgate Total Toothpaste 150ml",
+          "category": "Personal Care",
+          "quantity": 3,
+          "unit_price": 38.99,
+          "line_total": 116.97
+        }
+      ],
+      "order_total": 271.93
+    },
+    {
+      "order_id": "ORD0010",
+      "customer_id": "C007",
+      "order_date": "2026-02-02",
+      "store": "Spar Stellenbosch",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P011",
+          "product_name": "Colgate Total Toothpaste 150ml",
+          "category": "Personal Care",
+          "quantity": 2,
+          "unit_price": 38.99,
+          "line_total": 77.98
+        },
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 3,
+          "unit_price": 79.99,
+          "line_total": 239.97
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 2,
+          "unit_price": 22.99,
+          "line_total": 45.98
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 2,
+          "unit_price": 499.99,
+          "line_total": 999.98
+        },
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 6,
+          "unit_price": 89.99,
+          "line_total": 539.94
+        }
+      ],
+      "order_total": 1903.85
+    },
+    {
+      "order_id": "ORD0011",
+      "customer_id": "C014",
+      "order_date": "2025-07-11",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 1,
+          "unit_price": 499.99,
+          "line_total": 499.99
+        },
+        {
+          "product_id": "P012",
+          "product_name": "Woolworths Cotton T-Shirt",
+          "category": "Clothing",
+          "quantity": 1,
+          "unit_price": 149.99,
+          "line_total": 149.99
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 1,
+          "unit_price": 24.99,
+          "line_total": 24.99
+        },
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 89.99,
+          "line_total": 179.98
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 6,
+          "unit_price": 22.99,
+          "line_total": 137.94
+        }
+      ],
+      "order_total": 992.89
+    },
+    {
+      "order_id": "ORD0012",
+      "customer_id": "C003",
+      "order_date": "2025-06-18",
+      "store": "Spar Stellenbosch",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 5,
+          "unit_price": 499.99,
+          "line_total": 2499.95
+        },
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 89.99,
+          "line_total": 89.99
+        },
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 6,
+          "unit_price": 44.99,
+          "line_total": 269.94
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 6,
+          "unit_price": 59.99,
+          "line_total": 359.94
+        }
+      ],
+      "order_total": 3219.82
+    },
+    {
+      "order_id": "ORD0013",
+      "customer_id": "C004",
+      "order_date": "2025-09-02",
+      "store": "Woolworths V&A",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 299.99,
+          "line_total": 299.99
+        },
+        {
+          "product_id": "P006",
+          "product_name": "Sunlight Dishwashing Liquid 750ml",
+          "category": "Household",
+          "quantity": 6,
+          "unit_price": 28.99,
+          "line_total": 173.94
+        },
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 6,
+          "unit_price": 89.99,
+          "line_total": 539.94
+        }
+      ],
+      "order_total": 1013.87
+    },
+    {
+      "order_id": "ORD0014",
+      "customer_id": "C004",
+      "order_date": "2026-01-17",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 44.99,
+          "line_total": 134.97
+        },
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 2,
+          "unit_price": 79.99,
+          "line_total": 159.98
+        },
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 5,
+          "unit_price": 89.99,
+          "line_total": 449.95
+        }
+      ],
+      "order_total": 744.9
+    },
+    {
+      "order_id": "ORD0015",
+      "customer_id": "C011",
+      "order_date": "2025-05-31",
+      "store": "Checkers Menlyn",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P001",
+          "product_name": "Sasko White Bread 700g",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 19.99,
+          "line_total": 39.98
+        },
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 1,
+          "unit_price": 16.99,
+          "line_total": 16.99
+        },
+        {
+          "product_id": "P012",
+          "product_name": "Woolworths Cotton T-Shirt",
+          "category": "Clothing",
+          "quantity": 2,
+          "unit_price": 149.99,
+          "line_total": 299.98
+        },
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 5,
+          "unit_price": 74.99,
+          "line_total": 374.95
+        }
+      ],
+      "order_total": 731.9
+    },
+    {
+      "order_id": "ORD0016",
+      "customer_id": "C003",
+      "order_date": "2026-04-09",
+      "store": "Shoprite Durban",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 5,
+          "unit_price": 89.99,
+          "line_total": 449.95
+        },
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 5,
+          "unit_price": 8.99,
+          "line_total": 44.95
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 4,
+          "unit_price": 22.99,
+          "line_total": 91.96
+        },
+        {
+          "product_id": "P006",
+          "product_name": "Sunlight Dishwashing Liquid 750ml",
+          "category": "Household",
+          "quantity": 2,
+          "unit_price": 28.99,
+          "line_total": 57.98
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 5,
+          "unit_price": 59.99,
+          "line_total": 299.95
+        }
+      ],
+      "order_total": 944.79
+    },
+    {
+      "order_id": "ORD0017",
+      "customer_id": "C013",
+      "order_date": "2025-05-23",
+      "store": "Clicks Rosebank",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 89.99,
+          "line_total": 89.99
+        },
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 2,
+          "unit_price": 44.99,
+          "line_total": 89.98
+        },
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 2,
+          "unit_price": 8.99,
+          "line_total": 17.98
+        }
+      ],
+      "order_total": 197.95
+    },
+    {
+      "order_id": "ORD0018",
+      "customer_id": "C019",
+      "order_date": "2025-05-07",
+      "store": "Clicks Rosebank",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 6,
+          "unit_price": 24.99,
+          "line_total": 149.94
+        },
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 6,
+          "unit_price": 14.99,
+          "line_total": 89.94
+        },
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 1,
+          "unit_price": 8.99,
+          "line_total": 8.99
+        },
+        {
+          "product_id": "P001",
+          "product_name": "Sasko White Bread 700g",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 19.99,
+          "line_total": 39.98
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 1,
+          "unit_price": 34.99,
+          "line_total": 34.99
+        }
+      ],
+      "order_total": 323.84
+    },
+    {
+      "order_id": "ORD0019",
+      "customer_id": "C017",
+      "order_date": "2025-06-27",
+      "store": "Checkers Sea Point",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 2,
+          "unit_price": 59.99,
+          "line_total": 119.98
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 5,
+          "unit_price": 22.99,
+          "line_total": 114.95
+        }
+      ],
+      "order_total": 234.93
+    },
+    {
+      "order_id": "ORD0020",
+      "customer_id": "C016",
+      "order_date": "2025-05-18",
+      "store": "Checkers Menlyn",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 3,
+          "unit_price": 79.99,
+          "line_total": 239.97
+        },
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 4,
+          "unit_price": 16.99,
+          "line_total": 67.96
+        },
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 4,
+          "unit_price": 14.99,
+          "line_total": 59.96
+        },
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 299.99,
+          "line_total": 1199.96
+        }
+      ],
+      "order_total": 1567.85
+    },
+    {
+      "order_id": "ORD0021",
+      "customer_id": "C013",
+      "order_date": "2025-07-01",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 16.99,
+          "line_total": 33.98
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 5,
+          "unit_price": 24.99,
+          "line_total": 124.95
+        },
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 4,
+          "unit_price": 79.99,
+          "line_total": 319.96
+        }
+      ],
+      "order_total": 478.89
+    },
+    {
+      "order_id": "ORD0022",
+      "customer_id": "C009",
+      "order_date": "2025-06-07",
+      "store": "Shoprite Durban",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 1,
+          "unit_price": 24.99,
+          "line_total": 24.99
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 6,
+          "unit_price": 34.99,
+          "line_total": 209.94
+        },
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 89.99,
+          "line_total": 449.95
+        },
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 1,
+          "unit_price": 16.99,
+          "line_total": 16.99
+        }
+      ],
+      "order_total": 701.87
+    },
+    {
+      "order_id": "ORD0023",
+      "customer_id": "C014",
+      "order_date": "2025-09-03",
+      "store": "Checkers Sea Point",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 2,
+          "unit_price": 22.99,
+          "line_total": 45.98
+        },
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 4,
+          "unit_price": 79.99,
+          "line_total": 319.96
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 1,
+          "unit_price": 499.99,
+          "line_total": 499.99
+        },
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 4,
+          "unit_price": 21.49,
+          "line_total": 85.96
+        }
+      ],
+      "order_total": 951.89
+    },
+    {
+      "order_id": "ORD0024",
+      "customer_id": "C014",
+      "order_date": "2025-09-28",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 1,
+          "unit_price": 22.99,
+          "line_total": 22.99
+        },
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 5,
+          "unit_price": 89.99,
+          "line_total": 449.95
+        },
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 6,
+          "unit_price": 79.99,
+          "line_total": 479.94
+        },
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 5,
+          "unit_price": 74.99,
+          "line_total": 374.95
+        },
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 1,
+          "unit_price": 34.99,
+          "line_total": 34.99
+        }
+      ],
+      "order_total": 1362.82
+    },
+    {
+      "order_id": "ORD0025",
+      "customer_id": "C019",
+      "order_date": "2026-02-19",
+      "store": "Checkers Menlyn",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 5,
+          "unit_price": 44.99,
+          "line_total": 224.95
+        },
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 1,
+          "unit_price": 8.99,
+          "line_total": 8.99
+        },
+        {
+          "product_id": "P006",
+          "product_name": "Sunlight Dishwashing Liquid 750ml",
+          "category": "Household",
+          "quantity": 2,
+          "unit_price": 28.99,
+          "line_total": 57.98
+        },
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 1,
+          "unit_price": 21.49,
+          "line_total": 21.49
+        }
+      ],
+      "order_total": 313.41
+    },
+    {
+      "order_id": "ORD0026",
+      "customer_id": "C013",
+      "order_date": "2026-02-11",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 2,
+          "unit_price": 14.99,
+          "line_total": 29.98
+        }
+      ],
+      "order_total": 29.98
+    },
+    {
+      "order_id": "ORD0027",
+      "customer_id": "C003",
+      "order_date": "2025-09-28",
+      "store": "Shoprite Durban",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 3,
+          "unit_price": 14.99,
+          "line_total": 44.97
+        },
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 2,
+          "unit_price": 8.99,
+          "line_total": 17.98
+        },
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 6,
+          "unit_price": 44.99,
+          "line_total": 269.94
+        },
+        {
+          "product_id": "P011",
+          "product_name": "Colgate Total Toothpaste 150ml",
+          "category": "Personal Care",
+          "quantity": 6,
+          "unit_price": 38.99,
+          "line_total": 233.94
+        }
+      ],
+      "order_total": 566.83
+    },
+    {
+      "order_id": "ORD0028",
+      "customer_id": "C013",
+      "order_date": "2025-04-25",
+      "store": "Checkers Sea Point",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 3,
+          "unit_price": 74.99,
+          "line_total": 224.97
+        },
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 89.99,
+          "line_total": 89.99
+        }
+      ],
+      "order_total": 314.96
+    },
+    {
+      "order_id": "ORD0029",
+      "customer_id": "C019",
+      "order_date": "2025-08-08",
+      "store": "Spar Stellenbosch",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 5,
+          "unit_price": 34.99,
+          "line_total": 174.95
+        }
+      ],
+      "order_total": 174.95
+    },
+    {
+      "order_id": "ORD0030",
+      "customer_id": "C012",
+      "order_date": "2025-09-13",
+      "store": "Woolworths V&A",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 3,
+          "unit_price": 24.99,
+          "line_total": 74.97
+        }
+      ],
+      "order_total": 74.97
+    },
+    {
+      "order_id": "ORD0031",
+      "customer_id": "C018",
+      "order_date": "2026-03-26",
+      "store": "Checkers Menlyn",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 6,
+          "unit_price": 8.99,
+          "line_total": 53.94
+        },
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 5,
+          "unit_price": 44.99,
+          "line_total": 224.95
+        },
+        {
+          "product_id": "P001",
+          "product_name": "Sasko White Bread 700g",
+          "category": "Groceries",
+          "quantity": 3,
+          "unit_price": 19.99,
+          "line_total": 59.97
+        }
+      ],
+      "order_total": 338.86
+    },
+    {
+      "order_id": "ORD0032",
+      "customer_id": "C009",
+      "order_date": "2026-01-29",
+      "store": "Woolworths V&A",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 6,
+          "unit_price": 16.99,
+          "line_total": 101.94
+        }
+      ],
+      "order_total": 101.94
+    },
+    {
+      "order_id": "ORD0033",
+      "customer_id": "C010",
+      "order_date": "2025-09-09",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 3,
+          "unit_price": 79.99,
+          "line_total": 239.97
+        },
+        {
+          "product_id": "P011",
+          "product_name": "Colgate Total Toothpaste 150ml",
+          "category": "Personal Care",
+          "quantity": 1,
+          "unit_price": 38.99,
+          "line_total": 38.99
+        },
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 1,
+          "unit_price": 8.99,
+          "line_total": 8.99
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 6,
+          "unit_price": 59.99,
+          "line_total": 359.94
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 4,
+          "unit_price": 22.99,
+          "line_total": 91.96
+        }
+      ],
+      "order_total": 739.85
+    },
+    {
+      "order_id": "ORD0034",
+      "customer_id": "C011",
+      "order_date": "2026-01-28",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 6,
+          "unit_price": 59.99,
+          "line_total": 359.94
+        },
+        {
+          "product_id": "P006",
+          "product_name": "Sunlight Dishwashing Liquid 750ml",
+          "category": "Household",
+          "quantity": 4,
+          "unit_price": 28.99,
+          "line_total": 115.96
+        }
+      ],
+      "order_total": 475.9
+    },
+    {
+      "order_id": "ORD0035",
+      "customer_id": "C001",
+      "order_date": "2025-07-06",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 6,
+          "unit_price": 34.99,
+          "line_total": 209.94
+        }
+      ],
+      "order_total": 209.94
+    },
+    {
+      "order_id": "ORD0036",
+      "customer_id": "C019",
+      "order_date": "2025-08-26",
+      "store": "Checkers Menlyn",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 3,
+          "unit_price": 89.99,
+          "line_total": 269.97
+        },
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 299.99,
+          "line_total": 299.99
+        },
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 3,
+          "unit_price": 8.99,
+          "line_total": 26.97
+        },
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 21.49,
+          "line_total": 42.98
+        },
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 6,
+          "unit_price": 74.99,
+          "line_total": 449.94
+        }
+      ],
+      "order_total": 1089.85
+    },
+    {
+      "order_id": "ORD0037",
+      "customer_id": "C018",
+      "order_date": "2025-10-08",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 2,
+          "unit_price": 8.99,
+          "line_total": 17.98
+        },
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 4,
+          "unit_price": 89.99,
+          "line_total": 359.96
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 1,
+          "unit_price": 24.99,
+          "line_total": 24.99
+        },
+        {
+          "product_id": "P006",
+          "product_name": "Sunlight Dishwashing Liquid 750ml",
+          "category": "Household",
+          "quantity": 2,
+          "unit_price": 28.99,
+          "line_total": 57.98
+        }
+      ],
+      "order_total": 460.91
+    },
+    {
+      "order_id": "ORD0038",
+      "customer_id": "C009",
+      "order_date": "2025-08-12",
+      "store": "Shoprite Durban",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 1,
+          "unit_price": 16.99,
+          "line_total": 16.99
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 4,
+          "unit_price": 499.99,
+          "line_total": 1999.96
+        }
+      ],
+      "order_total": 2016.95
+    },
+    {
+      "order_id": "ORD0039",
+      "customer_id": "C012",
+      "order_date": "2025-10-06",
+      "store": "Spar Stellenbosch",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 6,
+          "unit_price": 24.99,
+          "line_total": 149.94
+        },
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 2,
+          "unit_price": 8.99,
+          "line_total": 17.98
+        },
+        {
+          "product_id": "P001",
+          "product_name": "Sasko White Bread 700g",
+          "category": "Groceries",
+          "quantity": 4,
+          "unit_price": 19.99,
+          "line_total": 79.96
+        }
+      ],
+      "order_total": 247.88
+    },
+    {
+      "order_id": "ORD0040",
+      "customer_id": "C009",
+      "order_date": "2025-09-01",
+      "store": "Woolworths V&A",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 44.99,
+          "line_total": 134.97
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 1,
+          "unit_price": 499.99,
+          "line_total": 499.99
+        },
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 1,
+          "unit_price": 34.99,
+          "line_total": 34.99
+        }
+      ],
+      "order_total": 669.95
+    },
+    {
+      "order_id": "ORD0041",
+      "customer_id": "C009",
+      "order_date": "2025-11-29",
+      "store": "Clicks Rosebank",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 5,
+          "unit_price": 16.99,
+          "line_total": 84.95
+        }
+      ],
+      "order_total": 84.95
+    },
+    {
+      "order_id": "ORD0042",
+      "customer_id": "C014",
+      "order_date": "2026-01-21",
+      "store": "Shoprite Durban",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 1,
+          "unit_price": 44.99,
+          "line_total": 44.99
+        },
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 6,
+          "unit_price": 16.99,
+          "line_total": 101.94
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 4,
+          "unit_price": 499.99,
+          "line_total": 1999.96
+        },
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 1,
+          "unit_price": 79.99,
+          "line_total": 79.99
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 5,
+          "unit_price": 59.99,
+          "line_total": 299.95
+        }
+      ],
+      "order_total": 2526.83
+    },
+    {
+      "order_id": "ORD0043",
+      "customer_id": "C014",
+      "order_date": "2025-09-28",
+      "store": "Checkers Menlyn",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P011",
+          "product_name": "Colgate Total Toothpaste 150ml",
+          "category": "Personal Care",
+          "quantity": 5,
+          "unit_price": 38.99,
+          "line_total": 194.95
+        }
+      ],
+      "order_total": 194.95
+    },
+    {
+      "order_id": "ORD0044",
+      "customer_id": "C017",
+      "order_date": "2025-06-25",
+      "store": "Shoprite Durban",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 6,
+          "unit_price": 299.99,
+          "line_total": 1799.94
+        },
+        {
+          "product_id": "P011",
+          "product_name": "Colgate Total Toothpaste 150ml",
+          "category": "Personal Care",
+          "quantity": 3,
+          "unit_price": 38.99,
+          "line_total": 116.97
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 5,
+          "unit_price": 499.99,
+          "line_total": 2499.95
+        }
+      ],
+      "order_total": 4416.86
+    },
+    {
+      "order_id": "ORD0045",
+      "customer_id": "C013",
+      "order_date": "2026-01-26",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 3,
+          "unit_price": 8.99,
+          "line_total": 26.97
+        },
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 4,
+          "unit_price": 14.99,
+          "line_total": 59.96
+        }
+      ],
+      "order_total": 86.93
+    },
+    {
+      "order_id": "ORD0046",
+      "customer_id": "C010",
+      "order_date": "2025-10-02",
+      "store": "Checkers Sea Point",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 299.99,
+          "line_total": 1499.95
+        },
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 6,
+          "unit_price": 14.99,
+          "line_total": 89.94
+        }
+      ],
+      "order_total": 1589.89
+    },
+    {
+      "order_id": "ORD0047",
+      "customer_id": "C015",
+      "order_date": "2026-03-24",
+      "store": "Checkers Menlyn",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 6,
+          "unit_price": 44.99,
+          "line_total": 269.94
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 2,
+          "unit_price": 22.99,
+          "line_total": 45.98
+        }
+      ],
+      "order_total": 315.92
+    },
+    {
+      "order_id": "ORD0048",
+      "customer_id": "C017",
+      "order_date": "2025-12-20",
+      "store": "Checkers Menlyn",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P011",
+          "product_name": "Colgate Total Toothpaste 150ml",
+          "category": "Personal Care",
+          "quantity": 2,
+          "unit_price": 38.99,
+          "line_total": 77.98
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 34.99,
+          "line_total": 69.98
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 1,
+          "unit_price": 24.99,
+          "line_total": 24.99
+        },
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 1,
+          "unit_price": 74.99,
+          "line_total": 74.99
+        },
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 2,
+          "unit_price": 34.99,
+          "line_total": 69.98
+        }
+      ],
+      "order_total": 317.92
+    },
+    {
+      "order_id": "ORD0049",
+      "customer_id": "C014",
+      "order_date": "2025-11-24",
+      "store": "Shoprite Durban",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 2,
+          "unit_price": 79.99,
+          "line_total": 159.98
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 6,
+          "unit_price": 499.99,
+          "line_total": 2999.94
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 6,
+          "unit_price": 22.99,
+          "line_total": 137.94
+        },
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 1,
+          "unit_price": 14.99,
+          "line_total": 14.99
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 1,
+          "unit_price": 24.99,
+          "line_total": 24.99
+        }
+      ],
+      "order_total": 3337.84
+    },
+    {
+      "order_id": "ORD0050",
+      "customer_id": "C017",
+      "order_date": "2026-01-17",
+      "store": "Clicks Rosebank",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 4,
+          "unit_price": 21.49,
+          "line_total": 85.96
+        },
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 2,
+          "unit_price": 34.99,
+          "line_total": 69.98
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 4,
+          "unit_price": 24.99,
+          "line_total": 99.96
+        },
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 6,
+          "unit_price": 16.99,
+          "line_total": 101.94
+        }
+      ],
+      "order_total": 357.84
+    },
+    {
+      "order_id": "ORD0051",
+      "customer_id": "C020",
+      "order_date": "2026-01-12",
+      "store": "Checkers Sea Point",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 299.99,
+          "line_total": 1199.96
+        },
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 34.99,
+          "line_total": 104.97
+        },
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 89.99,
+          "line_total": 179.98
+        },
+        {
+          "product_id": "P006",
+          "product_name": "Sunlight Dishwashing Liquid 750ml",
+          "category": "Household",
+          "quantity": 6,
+          "unit_price": 28.99,
+          "line_total": 173.94
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 22.99,
+          "line_total": 68.97
+        }
+      ],
+      "order_total": 1727.82
+    },
+    {
+      "order_id": "ORD0052",
+      "customer_id": "C009",
+      "order_date": "2025-06-30",
+      "store": "Woolworths V&A",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 3,
+          "unit_price": 34.99,
+          "line_total": 104.97
+        },
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 3,
+          "unit_price": 74.99,
+          "line_total": 224.97
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 5,
+          "unit_price": 24.99,
+          "line_total": 124.95
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 1,
+          "unit_price": 59.99,
+          "line_total": 59.99
+        }
+      ],
+      "order_total": 514.88
+    },
+    {
+      "order_id": "ORD0053",
+      "customer_id": "C013",
+      "order_date": "2025-10-07",
+      "store": "Checkers Sea Point",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 4,
+          "unit_price": 79.99,
+          "line_total": 319.96
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 4,
+          "unit_price": 34.99,
+          "line_total": 139.96
+        }
+      ],
+      "order_total": 459.92
+    },
+    {
+      "order_id": "ORD0054",
+      "customer_id": "C002",
+      "order_date": "2025-05-01",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 299.99,
+          "line_total": 1499.95
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 6,
+          "unit_price": 499.99,
+          "line_total": 2999.94
+        }
+      ],
+      "order_total": 4499.89
+    },
+    {
+      "order_id": "ORD0055",
+      "customer_id": "C001",
+      "order_date": "2026-01-25",
+      "store": "Shoprite Durban",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 5,
+          "unit_price": 74.99,
+          "line_total": 374.95
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 6,
+          "unit_price": 499.99,
+          "line_total": 2999.94
+        },
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 6,
+          "unit_price": 299.99,
+          "line_total": 1799.94
+        }
+      ],
+      "order_total": 5174.83
+    },
+    {
+      "order_id": "ORD0056",
+      "customer_id": "C008",
+      "order_date": "2026-04-03",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 299.99,
+          "line_total": 1199.96
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 22.99,
+          "line_total": 68.97
+        },
+        {
+          "product_id": "P001",
+          "product_name": "Sasko White Bread 700g",
+          "category": "Groceries",
+          "quantity": 6,
+          "unit_price": 19.99,
+          "line_total": 119.94
+        }
+      ],
+      "order_total": 1388.87
+    },
+    {
+      "order_id": "ORD0057",
+      "customer_id": "C015",
+      "order_date": "2026-02-18",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 1,
+          "unit_price": 8.99,
+          "line_total": 8.99
+        },
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 4,
+          "unit_price": 34.99,
+          "line_total": 139.96
+        }
+      ],
+      "order_total": 148.95
+    },
+    {
+      "order_id": "ORD0058",
+      "customer_id": "C014",
+      "order_date": "2025-11-01",
+      "store": "Clicks Rosebank",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 89.99,
+          "line_total": 89.99
+        },
+        {
+          "product_id": "P006",
+          "product_name": "Sunlight Dishwashing Liquid 750ml",
+          "category": "Household",
+          "quantity": 3,
+          "unit_price": 28.99,
+          "line_total": 86.97
+        }
+      ],
+      "order_total": 176.96
+    },
+    {
+      "order_id": "ORD0059",
+      "customer_id": "C015",
+      "order_date": "2025-12-17",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P011",
+          "product_name": "Colgate Total Toothpaste 150ml",
+          "category": "Personal Care",
+          "quantity": 4,
+          "unit_price": 38.99,
+          "line_total": 155.96
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 3,
+          "unit_price": 499.99,
+          "line_total": 1499.97
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 1,
+          "unit_price": 59.99,
+          "line_total": 59.99
+        }
+      ],
+      "order_total": 1715.92
+    },
+    {
+      "order_id": "ORD0060",
+      "customer_id": "C002",
+      "order_date": "2025-05-01",
+      "store": "Woolworths V&A",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 1,
+          "unit_price": 24.99,
+          "line_total": 24.99
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 34.99,
+          "line_total": 69.98
+        },
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 21.49,
+          "line_total": 42.98
+        }
+      ],
+      "order_total": 137.95
+    },
+    {
+      "order_id": "ORD0061",
+      "customer_id": "C005",
+      "order_date": "2026-02-25",
+      "store": "Checkers Menlyn",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 6,
+          "unit_price": 16.99,
+          "line_total": 101.94
+        },
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 3,
+          "unit_price": 14.99,
+          "line_total": 44.97
+        },
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 3,
+          "unit_price": 79.99,
+          "line_total": 239.97
+        },
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 89.99,
+          "line_total": 179.98
+        }
+      ],
+      "order_total": 566.86
+    },
+    {
+      "order_id": "ORD0062",
+      "customer_id": "C010",
+      "order_date": "2025-09-27",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 1,
+          "unit_price": 14.99,
+          "line_total": 14.99
+        }
+      ],
+      "order_total": 14.99
+    },
+    {
+      "order_id": "ORD0063",
+      "customer_id": "C007",
+      "order_date": "2026-03-08",
+      "store": "Shoprite Durban",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 6,
+          "unit_price": 14.99,
+          "line_total": 89.94
+        }
+      ],
+      "order_total": 89.94
+    },
+    {
+      "order_id": "ORD0064",
+      "customer_id": "C010",
+      "order_date": "2025-10-12",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 6,
+          "unit_price": 16.99,
+          "line_total": 101.94
+        },
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 3,
+          "unit_price": 14.99,
+          "line_total": 44.97
+        },
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 1,
+          "unit_price": 21.49,
+          "line_total": 21.49
+        },
+        {
+          "product_id": "P012",
+          "product_name": "Woolworths Cotton T-Shirt",
+          "category": "Clothing",
+          "quantity": 5,
+          "unit_price": 149.99,
+          "line_total": 749.95
+        },
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 6,
+          "unit_price": 299.99,
+          "line_total": 1799.94
+        }
+      ],
+      "order_total": 2718.29
+    },
+    {
+      "order_id": "ORD0065",
+      "customer_id": "C016",
+      "order_date": "2026-03-12",
+      "store": "Checkers Sea Point",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 299.99,
+          "line_total": 899.97
+        }
+      ],
+      "order_total": 899.97
+    },
+    {
+      "order_id": "ORD0066",
+      "customer_id": "C014",
+      "order_date": "2025-12-24",
+      "store": "Checkers Sea Point",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 5,
+          "unit_price": 44.99,
+          "line_total": 224.95
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 5,
+          "unit_price": 59.99,
+          "line_total": 299.95
+        }
+      ],
+      "order_total": 524.9
+    },
+    {
+      "order_id": "ORD0067",
+      "customer_id": "C019",
+      "order_date": "2025-12-14",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P011",
+          "product_name": "Colgate Total Toothpaste 150ml",
+          "category": "Personal Care",
+          "quantity": 3,
+          "unit_price": 38.99,
+          "line_total": 116.97
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 4,
+          "unit_price": 24.99,
+          "line_total": 99.96
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 34.99,
+          "line_total": 69.98
+        }
+      ],
+      "order_total": 286.91
+    },
+    {
+      "order_id": "ORD0068",
+      "customer_id": "C001",
+      "order_date": "2026-02-20",
+      "store": "Spar Stellenbosch",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P011",
+          "product_name": "Colgate Total Toothpaste 150ml",
+          "category": "Personal Care",
+          "quantity": 3,
+          "unit_price": 38.99,
+          "line_total": 116.97
+        },
+        {
+          "product_id": "P006",
+          "product_name": "Sunlight Dishwashing Liquid 750ml",
+          "category": "Household",
+          "quantity": 3,
+          "unit_price": 28.99,
+          "line_total": 86.97
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 22.99,
+          "line_total": 68.97
+        },
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 3,
+          "unit_price": 79.99,
+          "line_total": 239.97
+        }
+      ],
+      "order_total": 512.88
+    },
+    {
+      "order_id": "ORD0069",
+      "customer_id": "C001",
+      "order_date": "2026-04-20",
+      "store": "Checkers Sea Point",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 5,
+          "unit_price": 79.99,
+          "line_total": 399.95
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 34.99,
+          "line_total": 69.98
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 6,
+          "unit_price": 24.99,
+          "line_total": 149.94
+        },
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 299.99,
+          "line_total": 1199.96
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 6,
+          "unit_price": 22.99,
+          "line_total": 137.94
+        }
+      ],
+      "order_total": 1957.77
+    },
+    {
+      "order_id": "ORD0070",
+      "customer_id": "C001",
+      "order_date": "2025-11-14",
+      "store": "Shoprite Durban",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 2,
+          "unit_price": 74.99,
+          "line_total": 149.98
+        }
+      ],
+      "order_total": 149.98
+    },
+    {
+      "order_id": "ORD0071",
+      "customer_id": "C019",
+      "order_date": "2026-01-27",
+      "store": "Clicks Rosebank",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 22.99,
+          "line_total": 68.97
+        },
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 4,
+          "unit_price": 34.99,
+          "line_total": 139.96
+        },
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 6,
+          "unit_price": 44.99,
+          "line_total": 269.94
+        }
+      ],
+      "order_total": 478.87
+    },
+    {
+      "order_id": "ORD0072",
+      "customer_id": "C015",
+      "order_date": "2025-09-29",
+      "store": "Checkers Menlyn",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 1,
+          "unit_price": 74.99,
+          "line_total": 74.99
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 6,
+          "unit_price": 59.99,
+          "line_total": 359.94
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 2,
+          "unit_price": 24.99,
+          "line_total": 49.98
+        }
+      ],
+      "order_total": 484.91
+    },
+    {
+      "order_id": "ORD0073",
+      "customer_id": "C006",
+      "order_date": "2026-02-16",
+      "store": "Spar Stellenbosch",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 3,
+          "unit_price": 79.99,
+          "line_total": 239.97
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 6,
+          "unit_price": 22.99,
+          "line_total": 137.94
+        }
+      ],
+      "order_total": 377.91
+    },
+    {
+      "order_id": "ORD0074",
+      "customer_id": "C007",
+      "order_date": "2026-01-19",
+      "store": "Woolworths V&A",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 3,
+          "unit_price": 24.99,
+          "line_total": 74.97
+        },
+        {
+          "product_id": "P012",
+          "product_name": "Woolworths Cotton T-Shirt",
+          "category": "Clothing",
+          "quantity": 1,
+          "unit_price": 149.99,
+          "line_total": 149.99
+        },
+        {
+          "product_id": "P006",
+          "product_name": "Sunlight Dishwashing Liquid 750ml",
+          "category": "Household",
+          "quantity": 6,
+          "unit_price": 28.99,
+          "line_total": 173.94
+        }
+      ],
+      "order_total": 398.9
+    },
+    {
+      "order_id": "ORD0075",
+      "customer_id": "C002",
+      "order_date": "2026-04-13",
+      "store": "Woolworths V&A",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 34.99,
+          "line_total": 104.97
+        }
+      ],
+      "order_total": 104.97
+    },
+    {
+      "order_id": "ORD0076",
+      "customer_id": "C004",
+      "order_date": "2025-12-17",
+      "store": "Checkers Sea Point",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 3,
+          "unit_price": 14.99,
+          "line_total": 44.97
+        }
+      ],
+      "order_total": 44.97
+    },
+    {
+      "order_id": "ORD0077",
+      "customer_id": "C011",
+      "order_date": "2025-05-24",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 4,
+          "unit_price": 21.49,
+          "line_total": 85.96
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 1,
+          "unit_price": 59.99,
+          "line_total": 59.99
+        }
+      ],
+      "order_total": 145.95
+    },
+    {
+      "order_id": "ORD0078",
+      "customer_id": "C003",
+      "order_date": "2026-02-20",
+      "store": "Shoprite Durban",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 21.49,
+          "line_total": 42.98
+        },
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 1,
+          "unit_price": 89.99,
+          "line_total": 89.99
+        },
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 5,
+          "unit_price": 14.99,
+          "line_total": 74.95
+        },
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 4,
+          "unit_price": 74.99,
+          "line_total": 299.96
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 5,
+          "unit_price": 34.99,
+          "line_total": 174.95
+        }
+      ],
+      "order_total": 682.83
+    },
+    {
+      "order_id": "ORD0079",
+      "customer_id": "C013",
+      "order_date": "2025-06-10",
+      "store": "Shoprite Durban",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 89.99,
+          "line_total": 449.95
+        },
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 5,
+          "unit_price": 74.99,
+          "line_total": 374.95
+        },
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 299.99,
+          "line_total": 299.99
+        },
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 5,
+          "unit_price": 14.99,
+          "line_total": 74.95
+        }
+      ],
+      "order_total": 1199.84
+    },
+    {
+      "order_id": "ORD0080",
+      "customer_id": "C009",
+      "order_date": "2025-07-18",
+      "store": "Checkers Menlyn",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P006",
+          "product_name": "Sunlight Dishwashing Liquid 750ml",
+          "category": "Household",
+          "quantity": 2,
+          "unit_price": 28.99,
+          "line_total": 57.98
+        }
+      ],
+      "order_total": 57.98
+    },
+    {
+      "order_id": "ORD0081",
+      "customer_id": "C001",
+      "order_date": "2026-04-15",
+      "store": "Checkers Sea Point",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 89.99,
+          "line_total": 179.98
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 22.99,
+          "line_total": 68.97
+        },
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 6,
+          "unit_price": 74.99,
+          "line_total": 449.94
+        },
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 3,
+          "unit_price": 21.49,
+          "line_total": 64.47
+        }
+      ],
+      "order_total": 763.36
+    },
+    {
+      "order_id": "ORD0082",
+      "customer_id": "C008",
+      "order_date": "2026-03-18",
+      "store": "Woolworths V&A",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 1,
+          "unit_price": 14.99,
+          "line_total": 14.99
+        },
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 5,
+          "unit_price": 79.99,
+          "line_total": 399.95
+        },
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 299.99,
+          "line_total": 599.98
+        }
+      ],
+      "order_total": 1014.92
+    },
+    {
+      "order_id": "ORD0083",
+      "customer_id": "C005",
+      "order_date": "2025-09-25",
+      "store": "Spar Stellenbosch",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 21.49,
+          "line_total": 42.98
+        }
+      ],
+      "order_total": 42.98
+    },
+    {
+      "order_id": "ORD0084",
+      "customer_id": "C004",
+      "order_date": "2026-02-21",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 5,
+          "unit_price": 74.99,
+          "line_total": 374.95
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 4,
+          "unit_price": 499.99,
+          "line_total": 1999.96
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 4,
+          "unit_price": 59.99,
+          "line_total": 239.96
+        },
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 1,
+          "unit_price": 44.99,
+          "line_total": 44.99
+        }
+      ],
+      "order_total": 2659.86
+    },
+    {
+      "order_id": "ORD0085",
+      "customer_id": "C011",
+      "order_date": "2025-12-17",
+      "store": "Checkers Sea Point",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 6,
+          "unit_price": 59.99,
+          "line_total": 359.94
+        },
+        {
+          "product_id": "P001",
+          "product_name": "Sasko White Bread 700g",
+          "category": "Groceries",
+          "quantity": 3,
+          "unit_price": 19.99,
+          "line_total": 59.97
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 5,
+          "unit_price": 34.99,
+          "line_total": 174.95
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 1,
+          "unit_price": 24.99,
+          "line_total": 24.99
+        },
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 2,
+          "unit_price": 14.99,
+          "line_total": 29.98
+        }
+      ],
+      "order_total": 649.83
+    },
+    {
+      "order_id": "ORD0086",
+      "customer_id": "C006",
+      "order_date": "2025-07-12",
+      "store": "Clicks Rosebank",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 299.99,
+          "line_total": 1199.96
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 22.99,
+          "line_total": 68.97
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 3,
+          "unit_price": 34.99,
+          "line_total": 104.97
+        },
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 6,
+          "unit_price": 14.99,
+          "line_total": 89.94
+        },
+        {
+          "product_id": "P012",
+          "product_name": "Woolworths Cotton T-Shirt",
+          "category": "Clothing",
+          "quantity": 1,
+          "unit_price": 149.99,
+          "line_total": 149.99
+        }
+      ],
+      "order_total": 1613.83
+    },
+    {
+      "order_id": "ORD0087",
+      "customer_id": "C016",
+      "order_date": "2025-08-28",
+      "store": "Clicks Rosebank",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 4,
+          "unit_price": 499.99,
+          "line_total": 1999.96
+        },
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 1,
+          "unit_price": 34.99,
+          "line_total": 34.99
+        },
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 3,
+          "unit_price": 21.49,
+          "line_total": 64.47
+        }
+      ],
+      "order_total": 2099.42
+    },
+    {
+      "order_id": "ORD0088",
+      "customer_id": "C013",
+      "order_date": "2026-03-07",
+      "store": "Checkers Sea Point",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P001",
+          "product_name": "Sasko White Bread 700g",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 19.99,
+          "line_total": 39.98
+        },
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 5,
+          "unit_price": 34.99,
+          "line_total": 174.95
+        },
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 89.99,
+          "line_total": 269.97
+        },
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 299.99,
+          "line_total": 1499.95
+        },
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 4,
+          "unit_price": 21.49,
+          "line_total": 85.96
+        }
+      ],
+      "order_total": 2070.81
+    },
+    {
+      "order_id": "ORD0089",
+      "customer_id": "C007",
+      "order_date": "2025-06-22",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 4,
+          "unit_price": 34.99,
+          "line_total": 139.96
+        },
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 6,
+          "unit_price": 89.99,
+          "line_total": 539.94
+        },
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 4,
+          "unit_price": 74.99,
+          "line_total": 299.96
+        }
+      ],
+      "order_total": 979.86
+    },
+    {
+      "order_id": "ORD0090",
+      "customer_id": "C008",
+      "order_date": "2025-11-15",
+      "store": "Checkers Menlyn",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 1,
+          "unit_price": 74.99,
+          "line_total": 74.99
+        },
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 5,
+          "unit_price": 34.99,
+          "line_total": 174.95
+        }
+      ],
+      "order_total": 249.94
+    },
+    {
+      "order_id": "ORD0091",
+      "customer_id": "C004",
+      "order_date": "2025-12-24",
+      "store": "Checkers Sea Point",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 5,
+          "unit_price": 16.99,
+          "line_total": 84.95
+        },
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 6,
+          "unit_price": 89.99,
+          "line_total": 539.94
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 22.99,
+          "line_total": 68.97
+        },
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 4,
+          "unit_price": 74.99,
+          "line_total": 299.96
+        }
+      ],
+      "order_total": 993.82
+    },
+    {
+      "order_id": "ORD0092",
+      "customer_id": "C015",
+      "order_date": "2025-09-04",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 1,
+          "unit_price": 89.99,
+          "line_total": 89.99
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 3,
+          "unit_price": 499.99,
+          "line_total": 1499.97
+        },
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 4,
+          "unit_price": 79.99,
+          "line_total": 319.96
+        },
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 44.99,
+          "line_total": 134.97
+        },
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 5,
+          "unit_price": 8.99,
+          "line_total": 44.95
+        }
+      ],
+      "order_total": 2089.84
+    },
+    {
+      "order_id": "ORD0093",
+      "customer_id": "C010",
+      "order_date": "2025-12-10",
+      "store": "Clicks Rosebank",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 3,
+          "unit_price": 14.99,
+          "line_total": 44.97
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 22.99,
+          "line_total": 68.97
+        },
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 5,
+          "unit_price": 89.99,
+          "line_total": 449.95
+        },
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 89.99,
+          "line_total": 449.95
+        },
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 4,
+          "unit_price": 8.99,
+          "line_total": 35.96
+        }
+      ],
+      "order_total": 1049.8
+    },
+    {
+      "order_id": "ORD0094",
+      "customer_id": "C008",
+      "order_date": "2026-03-26",
+      "store": "Woolworths V&A",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 6,
+          "unit_price": 499.99,
+          "line_total": 2999.94
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 4,
+          "unit_price": 24.99,
+          "line_total": 99.96
+        },
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 6,
+          "unit_price": 299.99,
+          "line_total": 1799.94
+        },
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 4,
+          "unit_price": 21.49,
+          "line_total": 85.96
+        },
+        {
+          "product_id": "P011",
+          "product_name": "Colgate Total Toothpaste 150ml",
+          "category": "Personal Care",
+          "quantity": 4,
+          "unit_price": 38.99,
+          "line_total": 155.96
+        }
+      ],
+      "order_total": 5141.76
+    },
+    {
+      "order_id": "ORD0095",
+      "customer_id": "C002",
+      "order_date": "2025-12-02",
+      "store": "Checkers Menlyn",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 3,
+          "unit_price": 44.99,
+          "line_total": 134.97
+        },
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 1,
+          "unit_price": 14.99,
+          "line_total": 14.99
+        }
+      ],
+      "order_total": 149.96
+    },
+    {
+      "order_id": "ORD0096",
+      "customer_id": "C015",
+      "order_date": "2026-03-22",
+      "store": "Woolworths V&A",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 4,
+          "unit_price": 89.99,
+          "line_total": 359.96
+        }
+      ],
+      "order_total": 359.96
+    },
+    {
+      "order_id": "ORD0097",
+      "customer_id": "C016",
+      "order_date": "2025-11-01",
+      "store": "Clicks Rosebank",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P011",
+          "product_name": "Colgate Total Toothpaste 150ml",
+          "category": "Personal Care",
+          "quantity": 3,
+          "unit_price": 38.99,
+          "line_total": 116.97
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 6,
+          "unit_price": 499.99,
+          "line_total": 2999.94
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 5,
+          "unit_price": 34.99,
+          "line_total": 174.95
+        }
+      ],
+      "order_total": 3291.86
+    },
+    {
+      "order_id": "ORD0098",
+      "customer_id": "C018",
+      "order_date": "2025-08-19",
+      "store": "Spar Stellenbosch",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 1,
+          "unit_price": 8.99,
+          "line_total": 8.99
+        }
+      ],
+      "order_total": 8.99
+    },
+    {
+      "order_id": "ORD0099",
+      "customer_id": "C003",
+      "order_date": "2025-10-04",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P004",
+          "product_name": "Koo Baked Beans 410g",
+          "category": "Groceries",
+          "quantity": 6,
+          "unit_price": 16.99,
+          "line_total": 101.94
+        },
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 3,
+          "unit_price": 8.99,
+          "line_total": 26.97
+        },
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 89.99,
+          "line_total": 89.99
+        },
+        {
+          "product_id": "P006",
+          "product_name": "Sunlight Dishwashing Liquid 750ml",
+          "category": "Household",
+          "quantity": 1,
+          "unit_price": 28.99,
+          "line_total": 28.99
+        }
+      ],
+      "order_total": 247.89
+    },
+    {
+      "order_id": "ORD0100",
+      "customer_id": "C012",
+      "order_date": "2026-04-05",
+      "store": "Woolworths V&A",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 299.99,
+          "line_total": 1499.95
+        },
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 4,
+          "unit_price": 89.99,
+          "line_total": 359.96
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 5,
+          "unit_price": 24.99,
+          "line_total": 124.95
+        }
+      ],
+      "order_total": 1984.86
+    },
+    {
+      "order_id": "ORD0101",
+      "customer_id": "C006",
+      "order_date": "2026-03-04",
+      "store": "Shoprite Durban",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 4,
+          "unit_price": 8.99,
+          "line_total": 35.96
+        }
+      ],
+      "order_total": 35.96
+    },
+    {
+      "order_id": "ORD0102",
+      "customer_id": "C019",
+      "order_date": "2025-12-12",
+      "store": "Spar Stellenbosch",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 6,
+          "unit_price": 24.99,
+          "line_total": 149.94
+        },
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 89.99,
+          "line_total": 269.97
+        }
+      ],
+      "order_total": 419.91
+    },
+    {
+      "order_id": "ORD0103",
+      "customer_id": "C015",
+      "order_date": "2025-09-21",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 4,
+          "unit_price": 34.99,
+          "line_total": 139.96
+        },
+        {
+          "product_id": "P006",
+          "product_name": "Sunlight Dishwashing Liquid 750ml",
+          "category": "Household",
+          "quantity": 3,
+          "unit_price": 28.99,
+          "line_total": 86.97
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 5,
+          "unit_price": 34.99,
+          "line_total": 174.95
+        }
+      ],
+      "order_total": 401.88
+    },
+    {
+      "order_id": "ORD0104",
+      "customer_id": "C015",
+      "order_date": "2026-02-07",
+      "store": "Clicks Rosebank",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 1,
+          "unit_price": 79.99,
+          "line_total": 79.99
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 2,
+          "unit_price": 499.99,
+          "line_total": 999.98
+        },
+        {
+          "product_id": "P016",
+          "product_name": "Coca-Cola 2L",
+          "category": "Beverages",
+          "quantity": 4,
+          "unit_price": 22.99,
+          "line_total": 91.96
+        }
+      ],
+      "order_total": 1171.93
+    },
+    {
+      "order_id": "ORD0105",
+      "customer_id": "C010",
+      "order_date": "2025-05-16",
+      "store": "Checkers Sea Point",
+      "payment_method": "EFT",
+      "items": [
+        {
+          "product_id": "P001",
+          "product_name": "Sasko White Bread 700g",
+          "category": "Groceries",
+          "quantity": 1,
+          "unit_price": 19.99,
+          "line_total": 19.99
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 5,
+          "unit_price": 499.99,
+          "line_total": 2499.95
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 6,
+          "unit_price": 59.99,
+          "line_total": 359.94
+        }
+      ],
+      "order_total": 2879.88
+    },
+    {
+      "order_id": "ORD0106",
+      "customer_id": "C008",
+      "order_date": "2025-09-26",
+      "store": "Checkers Sea Point",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P012",
+          "product_name": "Woolworths Cotton T-Shirt",
+          "category": "Clothing",
+          "quantity": 6,
+          "unit_price": 149.99,
+          "line_total": 899.94
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 1,
+          "unit_price": 24.99,
+          "line_total": 24.99
+        },
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 6,
+          "unit_price": 79.99,
+          "line_total": 479.94
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 6,
+          "unit_price": 59.99,
+          "line_total": 359.94
+        },
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 1,
+          "unit_price": 89.99,
+          "line_total": 89.99
+        }
+      ],
+      "order_total": 1854.8
+    },
+    {
+      "order_id": "ORD0107",
+      "customer_id": "C019",
+      "order_date": "2025-07-19",
+      "store": "Shoprite Durban",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 3,
+          "unit_price": 89.99,
+          "line_total": 269.97
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 6,
+          "unit_price": 34.99,
+          "line_total": 209.94
+        },
+        {
+          "product_id": "P010",
+          "product_name": "Nivea Body Lotion 400ml",
+          "category": "Personal Care",
+          "quantity": 4,
+          "unit_price": 74.99,
+          "line_total": 299.96
+        }
+      ],
+      "order_total": 779.87
+    },
+    {
+      "order_id": "ORD0108",
+      "customer_id": "C018",
+      "order_date": "2025-09-19",
+      "store": "Clicks Rosebank",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P017",
+          "product_name": "Rooibos Tea 80 Bags",
+          "category": "Beverages",
+          "quantity": 2,
+          "unit_price": 44.99,
+          "line_total": 89.98
+        },
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 3,
+          "unit_price": 8.99,
+          "line_total": 26.97
+        },
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 4,
+          "unit_price": 59.99,
+          "line_total": 239.96
+        }
+      ],
+      "order_total": 356.91
+    },
+    {
+      "order_id": "ORD0109",
+      "customer_id": "C015",
+      "order_date": "2026-04-02",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 89.99,
+          "line_total": 179.98
+        }
+      ],
+      "order_total": 179.98
+    },
+    {
+      "order_id": "ORD0110",
+      "customer_id": "C012",
+      "order_date": "2025-09-03",
+      "store": "Checkers Menlyn",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 1,
+          "unit_price": 499.99,
+          "line_total": 499.99
+        }
+      ],
+      "order_total": 499.99
+    },
+    {
+      "order_id": "ORD0111",
+      "customer_id": "C012",
+      "order_date": "2025-12-18",
+      "store": "Pick n Pay Sandton",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P019",
+          "product_name": "Simba Chips Tomato Sauce 120g",
+          "category": "Snacks",
+          "quantity": 1,
+          "unit_price": 14.99,
+          "line_total": 14.99
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 6,
+          "unit_price": 499.99,
+          "line_total": 2999.94
+        },
+        {
+          "product_id": "P012",
+          "product_name": "Woolworths Cotton T-Shirt",
+          "category": "Clothing",
+          "quantity": 2,
+          "unit_price": 149.99,
+          "line_total": 299.98
+        }
+      ],
+      "order_total": 3314.91
+    },
+    {
+      "order_id": "ORD0112",
+      "customer_id": "C018",
+      "order_date": "2025-09-22",
+      "store": "Pick n Pay Bloemfontein",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 6,
+          "unit_price": 8.99,
+          "line_total": 53.94
+        },
+        {
+          "product_id": "P008",
+          "product_name": "Domestos Bleach 750ml",
+          "category": "Household",
+          "quantity": 4,
+          "unit_price": 24.99,
+          "line_total": 99.96
+        },
+        {
+          "product_id": "P003",
+          "product_name": "Clover Full Cream Milk 2L",
+          "category": "Groceries",
+          "quantity": 6,
+          "unit_price": 34.99,
+          "line_total": 209.94
+        }
+      ],
+      "order_total": 363.84
+    },
+    {
+      "order_id": "ORD0113",
+      "customer_id": "C005",
+      "order_date": "2025-12-29",
+      "store": "Checkers Menlyn",
+      "payment_method": "Card",
+      "items": [
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 3,
+          "unit_price": 21.49,
+          "line_total": 64.47
+        }
+      ],
+      "order_total": 64.47
+    },
+    {
+      "order_id": "ORD0114",
+      "customer_id": "C008",
+      "order_date": "2026-03-22",
+      "store": "Checkers Menlyn",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 5,
+          "unit_price": 89.99,
+          "line_total": 449.95
+        },
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 6,
+          "unit_price": 499.99,
+          "line_total": 2999.94
+        },
+        {
+          "product_id": "P015",
+          "product_name": "Philips LED Bulb 12W (3 pack)",
+          "category": "Electronics",
+          "quantity": 6,
+          "unit_price": 89.99,
+          "line_total": 539.94
+        },
+        {
+          "product_id": "P012",
+          "product_name": "Woolworths Cotton T-Shirt",
+          "category": "Clothing",
+          "quantity": 2,
+          "unit_price": 149.99,
+          "line_total": 299.98
+        },
+        {
+          "product_id": "P014",
+          "product_name": "Volkano USB Charging Hub",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 299.99,
+          "line_total": 1199.96
+        }
+      ],
+      "order_total": 5489.77
+    },
+    {
+      "order_id": "ORD0115",
+      "customer_id": "C020",
+      "order_date": "2025-06-10",
+      "store": "Clicks Rosebank",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P009",
+          "product_name": "TRESemm\u00e9 Shampoo 400ml",
+          "category": "Personal Care",
+          "quantity": 4,
+          "unit_price": 59.99,
+          "line_total": 239.96
+        },
+        {
+          "product_id": "P002",
+          "product_name": "Albany Superior Brown Bread",
+          "category": "Groceries",
+          "quantity": 4,
+          "unit_price": 21.49,
+          "line_total": 85.96
+        },
+        {
+          "product_id": "P012",
+          "product_name": "Woolworths Cotton T-Shirt",
+          "category": "Clothing",
+          "quantity": 2,
+          "unit_price": 149.99,
+          "line_total": 299.98
+        },
+        {
+          "product_id": "P007",
+          "product_name": "Ariel Washing Powder 2kg",
+          "category": "Household",
+          "quantity": 3,
+          "unit_price": 79.99,
+          "line_total": 239.97
+        }
+      ],
+      "order_total": 865.87
+    },
+    {
+      "order_id": "ORD0116",
+      "customer_id": "C012",
+      "order_date": "2025-07-27",
+      "store": "Checkers Menlyn",
+      "payment_method": "SnapScan",
+      "items": [
+        {
+          "product_id": "P013",
+          "product_name": "Truworths Denim Jeans",
+          "category": "Clothing",
+          "quantity": 3,
+          "unit_price": 499.99,
+          "line_total": 1499.97
+        }
+      ],
+      "order_total": 1499.97
+    },
+    {
+      "order_id": "ORD0117",
+      "customer_id": "C003",
+      "order_date": "2025-08-23",
+      "store": "Woolworths V&A",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 1,
+          "unit_price": 8.99,
+          "line_total": 8.99
+        },
+        {
+          "product_id": "P001",
+          "product_name": "Sasko White Bread 700g",
+          "category": "Groceries",
+          "quantity": 3,
+          "unit_price": 19.99,
+          "line_total": 59.97
+        }
+      ],
+      "order_total": 68.96
+    },
+    {
+      "order_id": "ORD0118",
+      "customer_id": "C007",
+      "order_date": "2026-02-15",
+      "store": "Shoprite Durban",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P018",
+          "product_name": "Oros Orange Squash 2L",
+          "category": "Beverages",
+          "quantity": 2,
+          "unit_price": 34.99,
+          "line_total": 69.98
+        }
+      ],
+      "order_total": 69.98
+    },
+    {
+      "order_id": "ORD0119",
+      "customer_id": "C011",
+      "order_date": "2025-06-26",
+      "store": "Spar Stellenbosch",
+      "payment_method": "Cash",
+      "items": [
+        {
+          "product_id": "P020",
+          "product_name": "Bar-One Chocolate 45g",
+          "category": "Snacks",
+          "quantity": 3,
+          "unit_price": 8.99,
+          "line_total": 26.97
+        },
+        {
+          "product_id": "P001",
+          "product_name": "Sasko White Bread 700g",
+          "category": "Groceries",
+          "quantity": 2,
+          "unit_price": 19.99,
+          "line_total": 39.98
+        }
+      ],
+      "order_total": 66.95
+    },
+    {
+      "order_id": "ORD0120",
+      "customer_id": "C004",
+      "order_date": "2025-10-21",
+      "store": "Shoprite Durban",
+      "payment_method": "Zapper",
+      "items": [
+        {
+          "product_id": "P005",
+          "product_name": "Nescaf\u00e9 Classic 200g",
+          "category": "Groceries",
+          "quantity": 1,
+          "unit_price": 89.99,
+          "line_total": 89.99
+        }
+      ],
+      "order_total": 89.99
+    }
+  ]
+}
