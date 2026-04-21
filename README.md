@@ -275,13 +275,6 @@ See [`docs/IMPLEMENTATION_PLAN.md`](./docs/IMPLEMENTATION_PLAN.md) — fully ill
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first.
-
----
-
-
 ## 📄 Licence
 
 MIT - free to use for portfolio, learning, and commercial projects.
