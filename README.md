@@ -284,4 +284,4 @@ Pull requests are welcome. For major changes, please open an issue first.
 
 ## 📄 Licence
 
-MIT — free to use for portfolio, learning, and commercial projects.
+MIT - free to use for portfolio, learning, and commercial projects.
