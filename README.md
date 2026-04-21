@@ -1,4 +1,4 @@
-# 🛒 SA Retail Analytics — Microsoft Fabric End-to-End Data Engineering
+# 🛒 SA Retail Analytics - Microsoft Fabric End-to-End Data Engineering
 
 [![Pipeline](https://img.shields.io/badge/Pipeline-Microsoft%20Fabric-7B3FE4?logo=microsoft&logoColor=white)](https://fabric.microsoft.com)
 [![PySpark](https://img.shields.io/badge/PySpark-3.x-E25A1C?logo=apachespark&logoColor=white)](https://spark.apache.org)
