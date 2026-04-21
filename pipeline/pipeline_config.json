@@ -1,0 +1,52 @@
+{
+  "pipeline_name": "Sales_Pipeline",
+  "description": "End-to-end SA Retail Analytics pipeline: Bronze ingestion → Silver cleaning → Gold analytics",
+  "workspace": "SA Retail Analytics",
+  "schedule": {
+    "enabled": true,
+    "frequency": "Daily",
+    "time_utc": "04:00",
+    "time_sast": "06:00",
+    "timezone": "Africa/Johannesburg"
+  },
+  "activities": [
+    {
+      "name": "Bronze_Ingestion",
+      "type": "DataflowGen2",
+      "dataflow_name": "Bronze_DF",
+      "description": "Ingest raw JSON from GitHub → 3 CSV files in Lakehouse bronze folder",
+      "on_success": "Silver_Cleaning",
+      "on_failure": "notify_failure"
+    },
+    {
+      "name": "Silver_Cleaning",
+      "type": "Notebook",
+      "notebook_name": "01_Silver_Cleaning",
+      "description": "Clean and transform bronze CSVs → silver Delta tables",
+      "on_success": "Gold_Analytics",
+      "on_failure": "notify_failure",
+      "depends_on": ["Bronze_Ingestion"]
+    },
+    {
+      "name": "Gold_Analytics",
+      "type": "Notebook",
+      "notebook_name": "02_Gold_Analytics",
+      "description": "Aggregate silver tables → 7 gold Delta tables for Power BI",
+      "on_failure": "notify_failure",
+      "depends_on": ["Silver_Cleaning"]
+    }
+  ],
+  "output_tables": {
+    "bronze": ["customer.csv", "product.csv", "orders.csv"],
+    "silver": ["silver_customer", "silver_product", "silver_orders"],
+    "gold": [
+      "gold_customer",
+      "gold_product",
+      "gold_segment",
+      "gold_category",
+      "gold_monthly_trend",
+      "gold_store_performance",
+      "gold_payment_methods"
+    ]
+  }
+}
