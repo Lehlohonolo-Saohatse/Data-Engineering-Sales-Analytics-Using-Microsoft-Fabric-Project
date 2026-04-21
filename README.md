@@ -92,11 +92,8 @@ sa-retail-analytics/
 │   └── pipeline_config.json         ← Pipeline definition reference
 │
 ├── powerbi/
-│   └── POWERBI_GUIDE.md             ← Power BI setup & DAX measures guide
-│
-└── .github/
-    └── ISSUE_TEMPLATE/
-        └── bug_report.md
+   └── POWERBI_GUIDE.md             ← Power BI setup & DAX measures guide
+
 ```
 
 ---
