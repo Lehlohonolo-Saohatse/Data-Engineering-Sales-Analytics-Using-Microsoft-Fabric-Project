@@ -133,72 +133,72 @@ See [`docs/IMPLEMENTATION_PLAN.md`](./docs/IMPLEMENTATION_PLAN.md) — fully ill
 
 ## 📊 Screenshots
 
-### Phase 1 — Workspace Setup
+### Phase 1 - Workspace Setup
 
-![Phase 1 — Workspace created in Microsoft Fabric](./screenshots/phase1_workspace_setup.png)
+![Phase 1 - Workspace created in Microsoft Fabric](./screenshots/phase1_workspace_setup.png)
 
 > The `SA Retail Analytics` workspace is created in Microsoft Fabric. From here you create the Lakehouse, Dataflows, Notebooks, and Pipeline.
 
 ---
 
-### Phase 2 — Dataflow Gen2 + Bronze Layer
+### Phase 2 - Dataflow Gen2 + Bronze Layer
 
-![Phase 2 — Dataflow Gen2 configured with 3 queries](./screenshots/phase2_dataflow_gen2.png)
+![Phase 2 - Dataflow Gen2 configured with 3 queries](./screenshots/phase2_dataflow_gen2.png)
 
 > Dataflow Gen2 (`Bronze_DF`) connects to the GitHub JSON source and creates three queries: `Customer`, `Product`, and `Orders`. Each query is expanded, typed as Text, and saved to `Files/bronze/` in the Lakehouse.
 
-![Phase 2 — Bronze CSV files in Lakehouse](./screenshots/phase2_lakehouse_bronze.png)
+![Phase 2 - Bronze CSV files in Lakehouse](./screenshots/phase2_lakehouse_bronze.png)
 
 > After running `Bronze_DF`, three CSV files appear under `SalesStorage → Files → bronze`: `customer.csv`, `product.csv`, and `orders.csv`.
 
 ---
 
-### Phase 3 — Silver Notebook + Delta Tables
+### Phase 3 - Silver Notebook + Delta Tables
 
-![Phase 3 — Silver notebook running in Fabric](./screenshots/phase3_silver_notebook.png)
+![Phase 3 - Silver notebook running in Fabric](./screenshots/phase3_silver_notebook.png)
 
 > The `01_Silver_Cleaning` PySpark notebook reads the bronze CSVs, removes duplicates, trims whitespace, casts types, and writes three Silver Delta tables.
 
-![Phase 3 — Silver Delta tables in Lakehouse](./screenshots/phase3_silver_tables.png)
+![Phase 3 - Silver Delta tables in Lakehouse](./screenshots/phase3_silver_tables.png)
 
 > `silver_customer`, `silver_product`, and `silver_orders` Delta tables appear under `SalesStorage → Tables`. The orders table holds 460 rows (one row per line item).
 
 ---
 
-### Phase 4 — Gold Tables
+### Phase 4 - Gold Tables
 
-![Phase 4 — Gold tables with KPI preview](./screenshots/phase4_gold_tables.png)
+![Phase 4 - Gold tables with KPI preview](./screenshots/phase4_gold_tables.png)
 
 > The `02_Gold_Analytics` notebook produces 7 Gold Delta tables. The `gold_customer` preview shows customers ranked by lifetime revenue in ZAR, with total dataset revenue of **R 117,513.86**.
 
 ---
 
-### Phase 5 — Pipeline Run & Schedule
+### Phase 5 - Pipeline Run & Schedule
 
-![Phase 5 — Pipeline ran successfully](./screenshots/phase5_pipeline_run.png)
+![Phase 5 - Pipeline ran successfully](./screenshots/phase5_pipeline_run.png)
 
-> `Sales_Pipeline` chains all three activities — Bronze ingestion, Silver cleaning, and Gold analytics — and completed in **4 minutes 54 seconds**. It is scheduled to run daily at **06:00 SAST**.
+> `Sales_Pipeline` chains all three activities - Bronze ingestion, Silver cleaning, and Gold analytics - and completed in **6 minutes 54 seconds**. It is scheduled to run daily at **06:00 SAST**.
 
 
 ---
-### Phase 6 — Workspace at the end
+### Phase 6 - Workspace at the end
 
-![Phase 6 — Workspace created in Microsoft Fabric](./screenshots/workspace_at_the_end.png)
+![Phase 6 - Workspace created in Microsoft Fabric](./screenshots/workspace_at_the_end.png)
 
 > The `SA Retail Analytics Workspace` workspace is created in Microsoft Fabric. From here you create the Lakehouse, Dataflows, Notebooks, and Pipeline.
 
 
 ---
 
-### Phase 7 — Connecting the Lakehouse to the Power Bi
+### Phase 7 - Connecting the Lakehouse to the Power Bi
 
-![Phase 7 — Pipeline ran successfully](./screenshots/powerbi.png)
+![Phase 7 - Pipeline ran successfully](./screenshots/powerbi.png)
 
 > `Power BI` Now lets visualize the data in Power BI. Current Phase of the Project. Since I am on a free account I cannot directly connect the Lakehouse to the Power BI, but an alternative of creating the CSVs, and then importing them to the Power Bi is the plan.
 
 ---
 
-## 📈 Gold Layer — Business Outputs
+## 📈 Gold Layer - Business Outputs
 
 | Table | Rows | Business Question |
 |---|---|---|
@@ -215,7 +215,7 @@ See [`docs/IMPLEMENTATION_PLAN.md`](./docs/IMPLEMENTATION_PLAN.md) — fully ill
 ## 🗺️ Data Dictionary
 
 <details>
-<summary><strong>customers</strong> — 7 columns</summary>
+<summary><strong>customers</strong> - 7 columns</summary>
 
 | Column | Type | Example |
 |---|---|---|
@@ -229,7 +229,7 @@ See [`docs/IMPLEMENTATION_PLAN.md`](./docs/IMPLEMENTATION_PLAN.md) — fully ill
 </details>
 
 <details>
-<summary><strong>products</strong> — 5 columns</summary>
+<summary><strong>products</strong> - 5 columns</summary>
 
 | Column | Type | Example |
 |---|---|---|
@@ -241,7 +241,7 @@ See [`docs/IMPLEMENTATION_PLAN.md`](./docs/IMPLEMENTATION_PLAN.md) — fully ill
 </details>
 
 <details>
-<summary><strong>orders</strong> — 13 columns</summary>
+<summary><strong>orders</strong> - 13 columns</summary>
 
 | Column | Type | Example |
 |---|---|---|
